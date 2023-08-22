@@ -1,0 +1,1 @@
+!function(){"use strict";function n({state:e={index:0}}){const t=function(n){return{...n,index:n.index+1}}(e);!function(n){const e=document.querySelector("#game"),t=n.index;e.innerHTML=`Loop : ${t}`}(t),requestAnimationFrame((()=>n({state:t})))}n({})}();
